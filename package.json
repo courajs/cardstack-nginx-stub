@@ -1,0 +1,21 @@
+{
+  "name": "cardstack-nginx-stub",
+  "version": "1.0.0",
+  "description": "A stub CardStack plugin to test microservice features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Sikes",
+  "license": "MIT",
+  "keywords": [
+    "cardstack-plugin"
+  ],
+  "cardstack-plugin": {
+    "api-version": 1
+  },
+  "dependencies": {
+    "koa-better-route": "^0.1.0",
+    "node-fetch": "^1.7.1"
+  }
+}
